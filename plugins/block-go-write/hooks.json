@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "${PLUGIN_ROOT}/dist/block-go-write.exe",
+        "windows": "${PLUGIN_ROOT}/dist/block-go-write.exe",
+        "timeout": 15
+      }
+    ]
+  }
+}

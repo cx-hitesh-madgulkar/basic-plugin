@@ -1,0 +1,7 @@
+{
+  "name": "block-go-write",
+  "version": "1.0.0",
+  "description": "Denies any agent tool call that creates, edits, or writes a .go source file.",
+  "license": "UNLICENSED",
+  "keywords": ["hooks", "pretooluse", "golang", "policy"]
+}

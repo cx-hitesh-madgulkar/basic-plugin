@@ -1,0 +1,14 @@
+{
+  "name": "basic-plugin",
+  "description": "Local marketplace for the block-go-write policy plugin.",
+  "owner": {
+    "name": "local"
+  },
+  "plugins": [
+    {
+      "name": "block-go-write",
+      "source": "./plugins/block-go-write",
+      "description": "Denies any agent tool call that creates, edits, or writes a .go source file."
+    }
+  ]
+}
